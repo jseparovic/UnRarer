@@ -1,0 +1,8 @@
+[Unit]
+Description=UnRarer Service
+
+[Service]
+Type=simple
+RemainAfterExit=yes
+ExecStart=/var/lib/unrarer/unrarer.py start
+ExecStop=/var/lib/unrarer/unrarer.py stop
