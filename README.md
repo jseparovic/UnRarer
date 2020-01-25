@@ -16,4 +16,17 @@ eg.
 log file is written to:
     /var/log/unrarer.log
 
+Not it only goes into 1 level of directories as that's all I needed. Would need to be updated to keep searching more levels down
+
+ie.
+SCANPATH
+   -Dir
+     -rar file
+
+not:
+SCANPATH
+   -Dir
+     -SubDir
+       -rar file
+
 ```
