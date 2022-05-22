@@ -6,7 +6,7 @@ import tempfile
 import subprocess
 import logging
 import threading
-import ConfigParser
+import configparser
 
 
 def setup_logging(log_file, level, threads=False):
