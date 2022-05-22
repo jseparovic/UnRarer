@@ -27,7 +27,7 @@ SCAN_PATH=${SCAN_PATH}
 EOF
 
 # requires python daemons to be installed
-easy_install daemons || exit 1
+easy_install-3 daemons || exit 1
 
 cd ${DIR}
 mkdir -p /usr/local/bin
