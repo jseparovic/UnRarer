@@ -78,7 +78,7 @@ def call_command(argv, timeout=0):
 
 
 def get_config_var(file, section, variable):
-    config = ConfigParser.RawConfigParser()
+    config = configparser.RawConfigParser()
     config.read(file)
     return config.get(section, variable)
 
