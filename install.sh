@@ -26,8 +26,8 @@ cat << EOF > /etc/unrarer.conf
 SCAN_PATH=${SCAN_PATH}
 EOF
 
-# requires python daemons to be installed
-easy_install-3 daemons || exit 1
+# requires python daemons configparser to be installed
+easy_install-3 daemons configparser || exit 1
 
 cd ${DIR}
 mkdir -p /usr/local/bin
