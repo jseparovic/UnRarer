@@ -29,6 +29,9 @@ EOF
 # requires python daemons configparser to be installed
 easy_install-3 daemons configparser || exit 1
 
+# install unrar
+yum install unrar -y
+
 cd ${DIR}
 mkdir -p /usr/local/bin
 mkdir -p /var/lib/${SERVICE}
