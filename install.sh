@@ -29,8 +29,8 @@ EOF
 # requires python daemons configparser to be installed
 easy_install-3 daemons configparser || exit 1
 
-# install unrar
-yum install unrar -y
+# install unrar (default yum pkg doesn't seem to work)
+yum install https://forensics.cert.org/centos/cert/8/x86_64/unrar-5.4.0-1.el8.x86_64.rpm
 
 cd ${DIR}
 mkdir -p /usr/local/bin
