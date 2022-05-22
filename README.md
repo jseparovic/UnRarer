@@ -1,4 +1,4 @@
-# UnRarer (systemd service)
+# UnRarer (Centos 8 systemd service)
 service to automatically unrar files given a specific path of directories
 ```
 this service scans through directories at given path and looks for rar files
